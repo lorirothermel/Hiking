@@ -15,6 +15,8 @@
 		DF3658282A32B034004F97E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3658272A32B034004F97E0 /* ContentView.swift */; };
 		DF36582A2A32B036004F97E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3658292A32B036004F97E0 /* Assets.xcassets */; };
 		DF36582D2A32B036004F97E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF36582C2A32B036004F97E0 /* Preview Assets.xcassets */; };
+		DF3BB1B42A46F4900096E215 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3BB1B32A46F4900096E215 /* CustomCircleView.swift */; };
+		DF3BB1B62A46F6BA0096E215 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3BB1B52A46F6BA0096E215 /* MotionAnimationView.swift */; };
 		DFD292D82A3C9E2F00B22EF8 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD292D72A3C9E2F00B22EF8 /* GradientButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		DF3658272A32B034004F97E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF3658292A32B036004F97E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF36582C2A32B036004F97E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF3BB1B32A46F4900096E215 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		DF3BB1B52A46F6BA0096E215 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		DFD292D72A3C9E2F00B22EF8 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,6 +52,8 @@
 				DF05260F2A3558BA0026F539 /* CardView.swift */,
 				DF0526122A355A620026F539 /* CustomBackgroundView.swift */,
 				DF273A402A3944A800AAC4EB /* CustomButtonView.swift */,
+				DF3BB1B32A46F4900096E215 /* CustomCircleView.swift */,
+				DF3BB1B52A46F6BA0096E215 /* MotionAnimationView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -169,10 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF3658282A32B034004F97E0 /* ContentView.swift in Sources */,
+				DF3BB1B42A46F4900096E215 /* CustomCircleView.swift in Sources */,
 				DF0526102A3558BA0026F539 /* CardView.swift in Sources */,
 				DF3658262A32B034004F97E0 /* HikingApp.swift in Sources */,
 				DF273A412A3944A800AAC4EB /* CustomButtonView.swift in Sources */,
 				DFD292D82A3C9E2F00B22EF8 /* GradientButtonStyle.swift in Sources */,
+				DF3BB1B62A46F6BA0096E215 /* MotionAnimationView.swift in Sources */,
 				DF0526132A355A620026F539 /* CustomBackgroundView.swift in Sources */,
 				DF0526162A355CED0026F539 /* ColorExtension.swift in Sources */,
 			);
