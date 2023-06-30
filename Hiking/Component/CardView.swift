@@ -10,22 +10,18 @@ import SwiftUI
 struct CardView: View {
     @State private var imageNumber: Int = 1
     @State private var randomNumber: Int = 1
+    @State private var isShowingSheet: Bool = false
+    
     
     
     func randomImage() {
-        print("=== Button Was Pressed ===")
-        print("Status - Old Image Number = \(imageNumber)")
         
         repeat {
             randomNumber = Int.random(in: 1...5)
-            print("Random Number Generated = \(randomNumber)")
         } while randomNumber == imageNumber
         
         imageNumber = randomNumber
-        
-        print("New Image Number = \(imageNumber)")
-        print("Out of Function")
-        print("================================")
+                
     }
     
     
@@ -53,10 +49,16 @@ struct CardView: View {
                         
                         Button {
                             // ACTION: Show a Sheet
+                            isShowingSheet.toggle()
                             print("The button was pressed!")
                         } label: {
                             CustomButtonView()
-                        }
+                        }  // Button
+                        .sheet(isPresented: $isShowingSheet) {
+                            SettingsView()
+                                .presentationDragIndicator(.visible)
+                                .presentationDetents([.medium, .large])
+                        }  // .sheet
                         
                     }  // HStack
                     
