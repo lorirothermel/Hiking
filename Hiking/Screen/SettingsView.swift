@@ -53,6 +53,28 @@ struct SettingsView: View {
             .listRowSeparator(.hidden)
             // MARK: - Section Icons
             // MARK: - Section About
+            Section(
+                header: Text("About The App"),
+                footer: HStack {
+                    Spacer()
+                    Text("Copyright © All Rights Reserved.")
+                    Spacer()
+                }  // HStack
+                    .padding(.vertical, 8)
+            ) {
+                // 1 - Basic Labeled Content
+//                LabeledContent("Application", value: "Hike")
+                
+                // 2 - Advanced Labeled Content
+                CustomListRowView(rowLabel: "Application", rowIcon: "apps.iphone", rowContent: "Hike".uppercased(), rowTintColor: .blue)
+                CustomListRowView(rowLabel: "Compatibility", rowIcon: "info.circle", rowContent: "iOS, iPadOS", rowTintColor: .red)
+                CustomListRowView(rowLabel: "Technology", rowIcon: "swift", rowContent: "Swift", rowTintColor: .orange)
+                CustomListRowView(rowLabel: "Version", rowIcon: "gear", rowContent: "1.0", rowTintColor: .purple)
+                CustomListRowView(rowLabel: "Developer", rowIcon: "ellipsis.curlybraces", rowContent: "Lori B. Rotherel", rowTintColor: .mint)
+                CustomListRowView(rowLabel: "Designer", rowIcon: "paintpalette", rowContent: "Sir Winston Rothermel 7th", rowTintColor: .pink)
+                CustomListRowView(rowLabel: "Website", rowIcon: "globe", rowContent: nil, rowTintColor: .indigo, rowLinkLabel: "Credo Academy", rowLinkDestination: "https://credo.academy")
+            }  // Section
+            
         }  // List
         
         

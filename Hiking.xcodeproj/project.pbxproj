@@ -19,6 +19,7 @@
 		DF3BB1B62A46F6BA0096E215 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3BB1B52A46F6BA0096E215 /* MotionAnimationView.swift */; };
 		DF9DA5A32A4E8E1400499B4E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DA5A22A4E8E1400499B4E /* SettingsView.swift */; };
 		DFD292D82A3C9E2F00B22EF8 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD292D72A3C9E2F00B22EF8 /* GradientButtonStyle.swift */; };
+		DFEFDDF32A544727009570BC /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFDDF22A544727009570BC /* CustomListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		DF3BB1B52A46F6BA0096E215 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		DF9DA5A22A4E8E1400499B4E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DFD292D72A3C9E2F00B22EF8 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		DFEFDDF22A544727009570BC /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				DF273A402A3944A800AAC4EB /* CustomButtonView.swift */,
 				DF3BB1B32A46F4900096E215 /* CustomCircleView.swift */,
 				DF3BB1B52A46F6BA0096E215 /* MotionAnimationView.swift */,
+				DFEFDDF22A544727009570BC /* CustomListRowView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				DF3658282A32B034004F97E0 /* ContentView.swift in Sources */,
 				DF3BB1B42A46F4900096E215 /* CustomCircleView.swift in Sources */,
+				DFEFDDF32A544727009570BC /* CustomListRowView.swift in Sources */,
 				DF0526102A3558BA0026F539 /* CardView.swift in Sources */,
 				DF3658262A32B034004F97E0 /* HikingApp.swift in Sources */,
 				DF273A412A3944A800AAC4EB /* CustomButtonView.swift in Sources */,
